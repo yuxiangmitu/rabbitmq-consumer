@@ -1,0 +1,14 @@
+server:
+  port: 8022
+spring:
+  #项目名称
+  application:
+    name: rabbitmq-consumer
+  #配置rabbitMq服务器
+  rabbitmq:
+    #虚拟host 可以不设置,使用server默认host
+    virtual-host: /
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
